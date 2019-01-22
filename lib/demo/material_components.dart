@@ -29,6 +29,7 @@ import './shopping_list_demo.dart';
 import './sliver_demo.dart';
 import './tab_widget_demo.dart';
 import './tab_bar_demo.dart';
+import './movie_list_demo.dart';
 
 class MaterialComponents extends StatelessWidget {
   @override
@@ -40,6 +41,10 @@ class MaterialComponents extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+          ListItem(
+            title: 'MovieListDemo',
+            page: MovieListDemo(),
+          ),
           ListItem(
             title: 'ContainerDemo',
             page: ContainerDemo(),
